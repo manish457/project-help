@@ -1,0 +1,37 @@
+<!-- Mobile Header -->
+		<div class="mobile-header d-none">
+		   <div class="mobile-menu-wrapper">
+			  <div id="" class="container-fluid">
+				 <div class="mobile-menu-area">
+					<div class="mobile-logo">
+					<?php if(get_field('site_logo' , 'option')):?>
+					   <div class="header-logo">
+						  <a href="<?php echo get_home_url(); ?>"><img src="<?php the_field('site_logo', 'option'); ?>" border="0" alt=""></a>
+					   </div>
+					<?php endif;?>
+					</div>
+					<div class="mobile-menu-icon">
+					   <a href="" class=""><img src="/wp-content/uploads/2022/07/menu-icon-svg.png"></a>
+					</div>
+				 </div>
+			  </div>
+		   </div>
+		</div>
+		<style>
+			@media(max-width:1024px){
+				.rmp-trigger-label.rmp-trigger-label-bottom {
+			    display: none !important;
+			}
+			}
+		</style>
+		<script type="text/javascript">
+			$(".mobile-menu-icon a").click(function(){
+			   $(".rmp_menu_trigger").trigger("click");
+				   if($(".rmp_menu_trigger").hasClass('is-active')){
+					$(this).addClass('active');
+				   }else{
+					$(this).removeClass('active');
+				   }
+			   return false;
+			});
+		</script>

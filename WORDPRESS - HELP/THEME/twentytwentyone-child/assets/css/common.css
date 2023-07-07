@@ -1,0 +1,400 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html, body{
+	overflow-X:hidden;
+}
+body {
+	margin:0px;
+	padding:0px;
+	font-family:"nunito";
+	font-size:16px;
+	line-height:26px;
+	color: #222222;
+}
+/*------------------------------------*\
+	FONT RESET
+\*------------------------------------*/
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img{ 
+	border:0;
+}
+address,caption,cite,dfn,th,var{
+	font-style:normal;
+	font-weight:normal;
+}
+caption,th{
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+	font-weight:300;
+}
+q:before,q:after{
+	content:'';
+}
+abbr,acronym{
+	border:0;
+}
+a{
+	color:#0A8DA2;
+}
+a:hover{
+	text-decoration:none;
+}
+ 
+/*------------------------------------*\
+	TYPOGRAPHY
+\*------------------------------------*/
+
+/*--- QUOTES ---*/
+blockquote{
+	margin:0 60px 0 45px;
+	border-left:5px solid #ccc;
+	padding-left:10px;
+	text-indent:-0.4em;
+}
+blockquote b{
+	display:block;
+	text-indent:0;
+}
+
+img{ 
+	max-width:100%; 
+	height:auto
+}
+/************************** FONTS CSS********************/
+h1{
+	font-family:"abril-display";
+    font-size: 54px;
+    color: #043F5F;
+    line-height: 52px;
+	font-weight:bold;
+	font-style:italic;
+}
+h2{
+	font-family:"abril-display";
+    font-size: 44px;
+    color: #222222;
+    letter-spacing: 2px;
+    line-height: 52px;
+    margin-bottom: 15px;
+	font-weight:bold;
+	font-style:italic;
+}
+h3{
+	font-family:"abril-display";
+    font-size: 30px;
+    color: #222222;
+    letter-spacing: 5px;
+}
+h4{
+	
+}
+p{
+	font-family:"nunito";
+	font-size:16px;
+	line-height:26px;
+	margin-bottom:40px;
+	color: #222222;
+}
+p a{
+	font-family:"nunito";
+	font-weight:bold;
+	color: #2C2B67;
+	text-decoration:none;
+}
+/************************** Page CSS********************/
+.full-width{
+	width:100vw;
+	margin-left:-50vw;
+	left:50%;
+	position:relative;
+}
+.common-background-style{
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.common-button {
+    font-family:"nunito";
+	font-weight:bold;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 4px;
+    background: rgb(4 63 95 / 0%);
+    border-radius: 30px;
+    display: inline-block;    
+    padding: 12px 30px 7px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    border: 1px solid #fff;
+}
+.black-line {
+	color:#222222;
+    border: 1px solid #222222;
+}
+.common-button:hover{
+	background: rgb(4 63 95 / 100%);
+	color:#fff;
+}
+.common-solid-button {
+	font-family: "nunito";
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 3px;
+    background: rgb(4 63 95 / 100%);
+    border-radius: 30px;
+    display: inline-block;
+    padding: 12px 20px 7px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    border: 1px solid #fff;
+}
+.common-solid-button.g-button {	
+    border-radius: 0px;
+    border: 1px solid transparent;
+	width:calc(100% - 30px);
+	margin:0 auto;
+}
+.common-solid-button:hover{
+	background: rgb(4 63 95 / 0%);
+	color:#fff;
+}
+.common-solid-button.g-button:hover{	
+    border: 1px solid rgb(4 63 95 / 100%);
+	color:rgb(4 63 95 / 100%);
+}
+.header-area.fixed_header .common-solid-button:hover, .header-navigation-wrapper.header-area.active .common-solid-button:hover{	
+    border: 1px solid rgb(4 63 95 / 100%);
+	color:rgb(4 63 95 / 100%);
+}
+/************************* Breadcrumb Css **************************/
+
+.site-breadcrumb {
+    font-family: "nunito";
+    font-size: 16px;
+    color: #043F5F;
+    font-weight: normal;
+    margin-bottom: 30px;
+    font-weight: bold;
+	line-height:26px;
+}
+.site-breadcrumb a {
+     font-family: "nunito";
+    font-size: 16px;
+    color: #043F5F;
+    font-weight: normal;
+    margin-bottom: 30px;
+    font-weight: bold;
+	line-height:26px;
+}
+.site-breadcrumb a:hover{
+	 transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+	color:#000;
+}
+
+/*************************** Quick Link List **********************/
+.quick-links-area {
+    position: fixed;
+    top: 25vh;
+    right: 0px;
+    z-index: 99;
+    color: #FFFFFF;
+    transform: translateX( calc( 100% - 240px ) );
+    transition: transform 500ms ease;
+}
+.quick-links-area.active {
+    transform: translateX(0);
+}
+.quick-links-rotate {
+    height: auto;
+    width: 240px;
+    transform: rotate(-90deg) translate(-100%, calc( 240px - 100% ));
+    transform-origin: 0 0;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    background: rgb(4 63 95 / 70%);
+    text-align: center;
+    color: inherit;
+    cursor: pointer;
+	/*box-shadow: 0px 0px 25px 4px rgb(0 0 0 / 56%);
+    -webkit-box-shadow: 0px 0px 25px 4px rgb(0 0 0 / 56%);
+    -moz-box-shadow: 0px 0px 25px 4px rgba(0,0,0,0.56);*/
+}
+.quick-links-arrow img {
+    transform: rotate( -270deg);
+    transition: all 150ms ease;
+    margin-bottom: 0px;
+}
+.quick-links-area.active .quick-links-arrow img {
+    transform: rotate( -90deg);
+    margin-bottom: -5px;
+}
+.quick-links-rotate h3 {
+    color: inherit;
+    font-size: 14px;
+    line-height: 19px;
+	font-family:"nunito";
+	margin-bottom:15px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+}
+.quick-link-list {
+    float: left;
+    width: 340px;
+    background: #043F5F;
+    font-family:"nunito";
+    line-height: 18px;
+    padding: 40px;
+    max-height: 75vh;
+    min-height: 240px;
+    overflow: auto;
+}
+.quick-link-list ol {
+    padding-left: 22px;
+}
+.quick-link-list ol li {
+    margin-bottom: 25px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+}
+.quick-link-list li a {
+    color: inherit;
+    text-decoration: none;
+}
+.quick-links-arrow{
+	margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+/*************************** Gravity from css*********************/
+option {
+	color: black; // color of all the other options
+}
+body .gform_wrapper ul.gform_fields {  
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+body .gform_wrapper label.gfield_label, body .gform_wrapper legend.gfield_label {
+    font-family:"nunito";
+    line-height: 35px;
+	color:#393939;
+	font-size:15px;
+	font-weight:normal;
+	font-style:italic;
+}
+body .gform_wrapper .top_label div.ginput_container {
+    margin-top: 0px;
+}
+body .large{
+	font-family:"nunito";
+	line-height: 35px;
+	color:#959595;
+	font-size:14px;
+	font-weight:normal;
+	height:40px;
+	border:0px solid #F5F5F5;
+	background:#F5F5F5;
+	-webkit-box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.29);
+	-moz-box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.29);
+	box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.29);
+	padding: 5px 15px !important;
+}
+body .gform_wrapper ul li.gfield {
+	margin-top: 30px !important;
+	
+}
+body .gform_wrapper textarea.large {
+    height: 100px;
+}
+.gform_wrapper .gform_footer {   
+    text-align: center;
+}
+
+/***************pagintion/***********************/
+.pagination{
+	padding-top:50px;
+	font-family:"nunito";
+	line-height: 28px;
+	color:#222222;
+	font-size:21px;
+	font-weight:bold;
+	text-transform:uppercase;
+	letter-spacing: 2px;
+	white-space: nowrap;
+}
+.pagination a{
+	color:#222222;
+}
+.pagination a:hover{
+	color:#043F5F;
+}
+.pagination {
+	display:table;
+	width:100%;
+}
+.pagination > div{
+	display:table-cell;
+	vertical-align:middle;
+}
+.pagination > div.prev{
+	width:150px;	
+}
+.pagination > div.prev span{
+	transform: rotate(180deg);
+    display: inline-block;
+    position: relative;
+    top: -3px;
+    margin-right: 15px;
+}
+.pagination > div.next{
+	width:150px;
+	text-align:right;
+}
+.pagination ul{
+	width:100%;
+	text-align:center;
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+.pagination ul li{
+	display:inline-block;
+	margin:0px 15px;
+}
+.pagination > div.next span{
+    margin-left: 15px;
+	display:inline-block
+}

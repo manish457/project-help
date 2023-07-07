@@ -1,0 +1,19 @@
+<h3>----------------------------------------- INJECT ------------------------------------------</h3>
+Select the type of items that you would like to inject on this page. Then select the item you would like to inject. Lastly, place the appropriate shortcode into the content.
+
+The shortcode options are:
+[overview-button-inject] -- Manage overview buttons using repeater field.
+[schedule-your-colon] -- Inject schedule your colon form.
+[cta-inject] -- CTA inject using custom field.
+[provider-inject] -- Inject providers form custom post type.
+[inject-request-appointment] -- Inject content with form.
+[inject-testimonial] -- Inject testimonial form custom post type.
+[inject-video] -- Inject video with custom field.
+[inject-2-buttons] -- Inject 2 buttons with custom field.
+[provider-all-inject] -- Inject All Provider Shortcode
+
+
+
+
+
+!= '' mean - jodi blank na hoye

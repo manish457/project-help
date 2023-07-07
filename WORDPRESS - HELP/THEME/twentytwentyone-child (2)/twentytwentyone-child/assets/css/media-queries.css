@@ -1,0 +1,367 @@
+@media(min-width:1200px) {
+	.container {
+		max-width: 1015px;
+	}
+}
+
+@media(max-width:1199px) {
+	.top-header {
+		display: none;
+	}
+
+	.menu-area,
+	.menu-contact-button,
+	.search-icon {
+		display: none;
+	}
+
+	.menu-logo {
+		display: block;
+	}
+
+	.menu-content-wrapper {
+		justify-content: space-between;
+	}
+
+	.header-area {
+		position: fixed;
+		top: 0px !important;
+		background: #fff;
+		-webkit-box-shadow: 0px 4px 23px -12px rgba(0, 0, 0, 0.75);
+		-moz-box-shadow: 0px 4px 23px -12px rgba(0, 0, 0, 0.75);
+		box-shadow: 0px 4px 23px -12px rgba(0, 0, 0, 0.75);
+	}
+
+	.header-area .header-nav-area {
+		padding: 13px 0px;
+	}
+
+	.footer-bottom-content-wrapper {
+		display: block;
+		text-align: center;
+	}
+
+	.privacy-and-cookie ul {
+		justify-content: center;
+		margin-bottom: 30px;
+	}
+
+	.footer-bottom {
+		padding: 50px 0px;
+	}
+
+	.meet-the-doctor-wrapper,
+	.footer-content-wrapper,
+	.footer-bottom-content-wrapper {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.about-us-image {
+		max-width: 40%;
+	}
+
+	.doctor-content .common-button {
+		letter-spacing: normal;
+	}
+
+	.each-service-image {
+		max-width: 40%;
+	}
+}
+
+@media(max-width:991px) {
+	.banner-area {
+		background-position: 80% center;
+		align-items: end !important;
+		padding-bottom: 125px;
+	}
+
+	.banner-logo {
+		text-align: center
+	}
+
+	.about-us-image {
+		position: relative;
+		max-width: 100%;
+		border-left: 0px solid #fff;
+		border-top: 20px solid #fff;
+	}
+
+	.about-us-image img {
+		width: 100%;
+	}
+
+	.about-us-content {
+		padding: 60px 30px;
+	}
+
+	.each-doctor {
+		margin-bottom: 75px;
+	}
+
+	.meet-the-doctor-wrapper .row .col-lg-3:last-child .each-doctor {
+		margin-bottom: 0px;
+	}
+
+	.desktop-view {
+		display: none;
+	}
+
+	.medical-spas .about-us-image {
+		border-top: 0px solid #fff;
+		border-bottom: 20px solid #fff;
+	}
+
+	.medical-spas-content {
+		padding: 100px 0px;
+		text-align: center;
+	}
+
+	.each-footer-content {
+		text-align: center;
+	}
+
+	.footer-location {
+		text-align: center !important;
+	}
+
+	.footer-content-wrapper .row .col-lg-4:last-child {
+		text-align: center !important;
+	}
+
+	.footer-logo-area,
+	.our-doctors {
+		margin-bottom: 65px;
+	}
+
+	.mob-view {
+		display: block;
+	}
+
+	/* %%%%%%%%%%%%%%%%%%%% inner page %%%%%%%%%%%% */
+	.inner-head h1 {
+		font-size: 43px;
+		line-height: 53px;
+	}
+
+	.meet-each {
+		text-align: center;
+	}
+
+	.meet-text h6 {
+		margin: 0 auto;
+		margin-bottom: 18px;
+	}
+
+	.meet-image {
+		margin: 0 auto;
+		margin-bottom: 23px;
+	}
+
+	.meet-each {
+		margin-bottom: 100px;
+	}
+
+	.meet-doctor-wrapper {
+		padding-top: 65px;
+	}
+
+	.pr-over-image-area {
+		position: relative;
+		width: 100%;
+		max-width: 100%;
+		border-right: 0px;
+		border-bottom: 20px solid #fff;
+	}
+
+	.procedure-contact-image {
+		width: 100%;
+	}
+
+	.gallery-post-area {
+		padding-bottom: 50px;
+	}
+
+	/* %%%%%%%%%%%%%%%%%%% procedure area %%%%%%%%%%%%%%% */
+	.procedure-area {
+		padding-top: 73px;
+		padding-bottom: 80px;
+	}
+
+	.procedure-about-text h1 {
+		font-size: 43px;
+		line-height: 53px;
+	}
+
+	.say-area {
+		padding-top: 65px;
+		padding-bottom: 65px;
+		margin-bottom: 50px;
+	}
+
+	.procedure-faq {
+		margin-top: 80px;
+	}
+}
+
+@media(max-width:767px) {
+	.banner-logo img {
+		max-width: 277px !important;
+	}
+
+	.container {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.about-us-content {
+		padding: 45px 8px 50px;
+	}
+
+	.about-us-content h2 {
+		margin-bottom: 25px;
+	}
+
+	.about-us-content p {
+		margin-bottom: 35px;
+	}
+
+	.meet-the-doctor {
+		padding: 45px 0px;
+	}
+
+	.each-doctor {
+		margin-bottom: 65px;
+	}
+
+	.medical-spas-content {
+		padding: 45px 0px;
+	}
+
+	.footer-top {
+		padding: 55px 0px;
+	}
+
+	.footer-logo-area,
+	.our-doctors {
+		margin-bottom: 55px;
+	}
+
+	.banner-area {
+		min-height: calc(100vh - 50px);
+	}
+
+	/* %%%%%%%%%%%%%%%%%%%% inner page %%%%%%%%%%%% */
+	.inner-back-image {
+		background-size: inherit;
+		padding-top: 132px;
+	}
+
+	.site-breadcrumb {
+		margin-top: 20px;
+	}
+
+	.meet-doctor-area {
+		margin-bottom: 0px;
+	}
+
+	.meet-dr-image {
+		float: inherit;
+		margin: 0px auto;
+		margin-bottom: 30px;
+	}
+
+	.meet-dr-wrapper {
+		padding-top: 50px;
+	}
+
+	.gallery-faq-wrapper #accordion>li>div {
+		padding-left: 30px;
+	}
+
+	.gallery-faq-wrapper #accordion>li>span {
+		display: block;
+		margin-bottom: 23px;
+		padding: 6px 30px;
+		background: url(../images/Icon\ ionic-ios-arrow-back.png) no-repeat 95% center;
+		cursor: pointer;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 400;
+		font-size: 30px;
+		line-height: 39px;
+		color: #FFFFFF;
+		background-color: #151515;
+	}
+
+	.gallery-faq-wrapper #accordion li>span.active {
+		background: url(../images/Icon\ ionic-back.png) no-repeat 95% center;
+		background-color: #151515;
+	}
+
+	.gallery-procedure-wrapper .row {
+		margin-right: -15px;
+		margin-left: -15px;
+	}
+
+	.gallery-procedure-wrapper .row .col-lg-4 {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+	.blog-each {
+		margin-bottom: 40px;
+	}
+
+	.gallery-procedure-wrapper {
+		padding-top: 63px;
+	}
+
+	.contact-area {
+		padding-top: 165px;
+	}
+
+	.pr-over-text ul li a {
+		line-height: 35px;
+	}
+
+	.pr-over-text ul li {
+		margin-bottom: 30px;
+	}
+
+	.pr-over-area {
+		margin-top: 35px;
+	}
+
+	.pr-over-text {
+		padding-bottom: 25px;
+	}
+
+	/* %%%%%%%%%%%%%%%%%%% procedure area %%%%%%%%%%%%%%% */
+	.procedure-area .inner-head {
+		padding-top: 0px;
+		padding-bottom: 7px;
+	}
+
+	.procedure-pr-over-text {
+		padding-top: 45px;
+		padding-bottom: 50px;
+	}
+
+	.say-each {
+		max-width: 280px;
+		margin: 0 auto;
+	}
+
+	.procedure-faq #accordion>li>span {
+		background: url(../images/expand_arrow.png) no-repeat 93% #F2F2F2;
+		line-height: 26px;
+		padding: 9px 20px;
+		padding-right: 70px;
+	}
+
+	.procedure-about-text {
+		padding-top: 65px;
+		padding-bottom: 65px;
+	}
+}

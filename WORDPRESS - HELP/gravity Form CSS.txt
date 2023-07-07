@@ -1,0 +1,156 @@
+/*%%%%%%%%%%%%%%%%%%%%%%%%%% Contact From %%%%%%%%%%%  */
+ without lagecy mood
+
+body .gform_wrapper.gravity-theme .ginput_container input, 
+body .gform_wrapper.gravity-theme .ginput_container select, 
+body .gform_wrapper.gravity-theme .ginput_container textarea{
+    font-size: 18px;
+    outline: none;
+}
+body .ginput_container input, body .ginput_container select, body .ginput_container textarea {
+    width: 100% !important;
+    border-radius: 0px;
+    border: 0px;
+    background-color: transparent !important;
+	font-family: 'Urbanist regular';
+	font-size:18px;
+	line-height:32px;
+	color:#707070;
+    padding: 10px 0px !important;
+    appearance: none;
+    -webkit-appearance: none;
+    resize: none;
+    border-bottom: 1px solid #1E5888;
+}
+@media (min-width: 641px){
+	body .gform_wrapper.gravity-theme .gform_fields {
+		grid-column-gap: 28px;
+	}
+}
+body .gform_button.button {
+    font-family: 'Urbanist medium';
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 10px;
+    border: 1px solid #15AAE1;
+    background: transparent;
+    color: #707070;
+    padding: 7px 37px 7px 37px;
+    display: inline-block;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+	    margin: 0 auto;
+}
+body .gform_button.button:hover {
+    background: #72ADD5;
+    color: #fff;
+}
+body .ginput_container select {
+    background: url(/wp-content/uploads/2022/09/Dropdown-Arrow-Icon.svg) transparent no-repeat 97% center !important;
+}
+
+
+
+
+/********************** with lagecy mood *********************/
+
+
+
+.contact-form-wrapper .gform_heading{
+	text-align:center;
+	background:#FFFFFF;
+	padding:50px 50px 0px 50px;
+}
+.contact-form-wrapper .gform_body{
+	background:#FFFFFF;
+	padding:30px 50px 20px 50px;
+}
+body .gform_body ul, body .gform_wrapper .gform_body ul.gform_fields, body .gform_wrapper ul.gform_fields{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	display:flex;
+	margin:0px -15px !important;
+	ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+body .gform_wrapper li.hidden_label input{
+	margin-top: 0px;
+}
+body .gfield_label{
+	display:none;
+}
+body .gform_body ul li, body .gform_wrapper .gform_body ul li.gfield{
+	margin-top:0px !important;
+	margin-bottom:20px;
+}
+body .gform_body ul li .ginput_container  input, 
+body .gform_body ul li .ginput_container select,
+body .gform_body ul li .ginput_container textarea{
+	width: 100%;
+	border-radius:0px;
+	border:1px solid #D6D6D6;
+	background-color:#fff;
+	font-weight:400;
+	font-size:15px;
+	color:#898989;
+	padding:8px;
+	width:100%;
+	/*appearance: none;
+	-webkit-appearance: none;*/
+	resize:none;
+	letter-spacing:1px;
+}
+body .gform_body ul li .ginput_container select{
+	padding:14px 8px 13px;
+}
+body .gform_body ul li .ginput_container input::-webkit-input-placeholder { /* Edge */
+  color:#898989;
+}
+
+body .gform_body ul li .ginput_container input:-ms-input-placeholder { /* Internet Explorer */
+  color:#898989;
+}
+
+body .gform_body ul li .ginput_container input::placeholder {
+  color:#898989;
+}
+body .gform_body ul li .ginput_container textarea::-webkit-input-placeholder { /* Edge */
+  color:#898989;
+}
+
+body .gform_body ul li .ginput_container textarea:-ms-input-placeholder { /* Internet Explorer */
+  color:#898989;
+}
+
+body .gform_body ul li .ginput_container textarea::placeholder {
+  color:#898989;
+}
+body .gform_body ul li .ginput_container textarea{
+	height:50px;
+}
+body .gravity-from-submit button{
+	font-size: 15px;
+	color: #E8948C;
+	border:1.5px solid #E8948C;
+	background-color:transparent;
+	padding: 7px 69px;
+	display: inline-block;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	text-transform:uppercase;
+	font-weight:400;
+}
+body .gravity-from-submit{
+	text-align:center;
+	margin-top:45px;
+}
+body .gform_body{
+	padding:0px 15px;
+}
+body .gform_confirmation_message{
+	text-align:center;
+}
+

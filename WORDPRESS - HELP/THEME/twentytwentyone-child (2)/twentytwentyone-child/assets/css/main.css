@@ -1,0 +1,457 @@
+/*************** Import Css **************/
+
+@import "common.css";
+@import "fonts.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*font-family: 'Roboto', sans-serif;*/
+/********************* Header Css ******************/
+.header-area{
+	position:absolute;
+	top:0px;
+	width:100%;
+	left:0px;
+	z-index:99;
+}
+.top-header{
+	background:#151515;
+}
+.top-header-content ul{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	font-size: 0px;
+}
+.top-header-content ul li{
+	display:inline-block;
+	width:50%;
+	text-align:left;
+}
+.top-header-content ul li:first-child{
+	border-right:1px solid #fff;
+	text-align:right;
+}
+.top-header-content ul li:first-child a{
+	padding-right:35px;
+	padding-left:0px;
+}
+.top-header-content ul li a{
+	font-size: 16px;
+    line-height: 32px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 5px 0px 5px 35px;
+    display:block;
+	transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+}
+.top-header-content ul li a:hover{
+	background:#fff;
+	color:#151515;
+	transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+}
+.menu-content-wrapper{
+	display: flex;
+    justify-content: center;
+	align-items:center;
+}
+.menu-logo{
+	display:none;
+}
+.menu-area ul{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+}
+.menu-area > ul{
+	display:flex;
+}
+.menu-area > ul > li{
+	margin:0px 15px;
+}
+.menu-area > ul > li:first-child{
+	margin-left:0px;
+}
+.menu-area > ul > li:last-child{
+	margin-right:0px;
+}
+.menu-area > ul > li > a{
+	font-weight:700;
+	font-size:16px;
+	line-height:23px;
+	text-transform:uppercase;
+	color:#151515;
+	font-stretch:normal;
+	padding: 29px 0px;
+	display:block;
+}
+.menu-content-wrapper > div{
+	margin:0px 22px;
+}
+.header-area.fixed_header{
+	top:-100%;
+	left:0px;
+	width:100%;
+	-webkit-box-shadow: 0px 4px 23px -12px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 4px 23px -12px rgba(0,0,0,0.75);
+	box-shadow: 0px 4px 23px -12px rgba(0,0,0,0.75);
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.header-area.fixed_header.stky{
+	position:fixed;
+	top:0px;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.header-area.fixed_header .header-nav-area{
+	background:#fff;
+}
+.header-area.fixed_header .menu-logo{
+	display:block;
+}
+/***************** Banner Css ************/
+.banner-area{
+	min-height:100vh;
+}
+
+/***************** About Us Css **********/
+.about-us-section{
+	background:#151515;
+	position:relative;
+	overflow:hidden;
+}
+.about-us-content{
+	padding:60px 0px;
+}
+.about-us-content h2{
+	color:#fff;
+	margin-bottom: 15px;
+}
+.about-us-content p{
+	color:#fff;
+}
+.about-us-content a.common-button{
+	background:#fff;
+	color:#151515;
+	border:1px solid #fff;
+}
+.about-us-image{
+	position:absolute;
+	right:0px;
+	top:0px;
+	max-width:532px;
+	height:100%;
+	border-left:20px solid #fff;
+}
+.about-us-image img{
+	height:100%;
+	object-fit:cover;
+}
+
+/***************** Meet The Doctor ****************/
+.meet-the-doctor{	
+	padding:110px 0px;
+}
+.meet-the-doctor-wrapper{
+	margin-left: -70px;
+    margin-right: -70px;
+}
+.doctor-image{
+	width:200px;
+	height:200px;
+	border-radius:100%;
+	overflow:hidden;
+}
+.meet-the-doctor-wrapper h2{
+	text-align:center;
+	margin-bottom:40px;
+}
+.doctor-content h4, .doctor-content h5{
+	font-size:16px;
+	line-height:23px;
+	color:#151515;
+	text-transform:uppercase;
+	font-weight:700;
+}
+.doctor-content{
+	margin-top:30px;
+}
+.doctor-content .common-button{
+	margin-top:20px;
+}
+
+/*************** Services Css ****************/
+.services-area{
+	background:#F2F2F2;
+	position:relative;
+	min-height:495px;
+	border-bottom:20px solid #fff;
+}
+.services-content{
+	padding:100px 0px;
+}
+.nav-tab-list ul{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+.nav-tab-list ul li {
+	display:inline-block;
+	margin-right:60px;
+}
+.nav-tab-list ul li:last-child{
+	margin-right:0px;
+}
+.nav-tab-list ul li.active a{
+	color:#151515;
+}
+.nav-tab-list ul li a{
+	font-family: 'Roboto', sans-serif;
+	font-size:30px;
+	line-height:39px;
+	letter-spacing:3px;
+	color:#808080;
+	position:relative;
+	padding:0px 5px 3px;
+}
+.nav-tab-list ul li a:after{
+	width:100%;
+	height:2px;
+	background:#151515;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	content:'';
+	opacity:0;
+}
+.nav-tab-list ul li.active a:after{
+	opacity:1;
+}
+.service-tab-listing-wrapper .each-tab-content{
+	display:none;
+}
+.service-tab-listing-wrapper .each-tab-content.active{
+	display:block;
+}
+.each-tab-content ul{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	font-size:0px;
+}
+.each-tab-content ul li{
+	width:50%;
+	display:inline-block;
+}
+.each-tab-content ul li a{
+	font-size:18px;
+	line-height:32px;
+	color:#2F2F2F;
+}
+.nav-tab-list{
+	margin-bottom:25px;
+}
+.services-content h2{
+	margin-bottom:15px;
+}
+.each-tab-content{
+	display:none;
+}
+.each-tab-content.active{
+	display:block;
+}
+.each-service-image{
+	position:absolute;
+	left:0px;
+	top:0px;
+	max-width:532px;
+	height:100%;
+	border-right:20px solid #fff;
+	display:none;
+}
+.each-service-image.active{
+	display:block
+}
+.each-service-image img{
+	height:100%;
+	object-fit:cover;
+}
+.mob-view{
+	display:none;
+}
+.service-area.mob-view{
+	padding:45px 0px;
+}
+.service-area.mob-view .container{
+	padding-left:25px;
+	padding-right:25px;
+}
+.service-area.mob-view .container h2{
+	text-align:center;
+	margin-bottom:25px;
+}
+#accordion {
+	list-style: none;
+	padding: 2px;
+}
+#accordion > li {
+	display: block;
+	list-style: none;
+}
+#accordion > li > span {
+	display: block;
+	margin: 0px 0 12px;
+	padding: 8px 30px;
+	background: url('../images/expand_arrow.png') no-repeat 90% #F2F2F2;
+	cursor: pointer;
+	font-family: 'Roboto', sans-serif;
+	font-size:30px;
+	line-height:39px;
+	letter-spacing:3px;
+	color:#808080;
+}
+#accordion > li > div {
+	list-style: none;
+	padding: 6px 30px 20px;
+	display: none; overflow:auto
+}
+#accordion > ul li {
+	font-weight: normal;
+	cursor: auto;
+	padding: 0 0 0 7px;
+}
+#accordion a {
+	text-decoration: none;
+}
+#accordion li > span.active {
+	background: url('../images/collapse-arrow.png') no-repeat 90% #F2F2F2;
+	border-bottom: 2px solid #151515;
+}
+.mob-service-list-wrapper ul li div ul{
+	list-style:none;
+	padding:0px;
+	list-style:none;
+}
+.mob-service-list-wrapper ul li div ul li a{
+	font-size:18px;
+	line-height:32px;
+	color:#2F2F2F;
+}
+.mob-service-list-wrapper ul li div ul li{
+	margin-bottom:7px;
+}
+/************** Medical Spas *************/
+.medical-spas{
+	background:#F2F2F2;
+	position:relative;
+}
+.medical-spas-content{
+	padding:150px 0px;
+}
+
+/************ Footer Css **************/
+.footer-top{
+	background:#151515;
+	padding:85px 0px;
+}
+.each-footer-content h5{
+	font-size:18px;
+	line-height:32px;
+	font-weight:500;
+	color:#FFFFFF;
+	text-transform:uppercase;
+}
+.each-footer-content ul{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+.each-footer-content ul li:not(:last-child){
+	margin-bottom:10px;
+}
+.each-footer-content ul li a{
+	font-size:18px;
+	line-height:30px;
+	font-weight:400;
+	color:#FFFFFF;
+	position:relative;
+}
+.each-footer-content ul li a:after{
+	width:100%;
+	height:1px;
+	background:#fff;
+	bottom:-2px;
+	left:0px;
+	content:'';
+	position:absolute;
+	opacity:0;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.each-footer-content ul li a:hover:after{
+	opacity:1;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.our-doctors h5{
+	margin-bottom:13px;
+}
+.footer-logo-area img{
+	max-width:240px;
+	filter: invert(1);
+}
+.footer-location p{
+	line-height:23px;	
+}
+.footer-location p a{
+	color:#fff;
+	position:relative;
+}
+.footer-content-wrapper{
+	margin-left:-30px;
+	margin-right:-30px;
+}
+.footer-bottom-content-wrapper{
+	margin-left:-70px;
+	margin-right:-70px;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	flex-direction: row-reverse;
+}
+.copy-right-text p{
+	margin:0px;
+	font-size:16px;
+	font-family: 'Helvetica Neue';
+}
+.privacy-and-cookie ul{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	display:flex;
+}
+.privacy-and-cookie ul li a{
+	font-family: 'Roboto', sans-serif;
+	font-size:16px;
+	color:#808080;
+	padding: 0px 10px;
+}
+.privacy-and-cookie ul li a:hover{
+	color:#151515;
+}
+.privacy-and-cookie ul li:last-child a{
+	padding-right:0px;
+	border-left:1px solid #808080;
+}
+.footer-bottom{
+	padding:10px 0px;
+}
+.gallery-post-slider img{
+	margin-top:40px;
+}
+.gallery-post-button img{
+	margin-top:0px;
+}

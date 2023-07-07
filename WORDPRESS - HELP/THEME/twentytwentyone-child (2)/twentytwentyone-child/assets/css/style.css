@@ -1,0 +1,592 @@
+/*************** Import Css **************/
+
+@import "common.css";
+@import "fonts.css";
+
+/********************* Gallery Css ******************/
+.inner-back-image {
+	background-image: url(../images/shutterstock_1769919230.jpg);
+	padding-top: 214px;
+	background-size: cover;
+	background=position:center center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+.gallery-area {
+	padding-bottom: 30px;
+}
+
+.gallery-faq-wrapper {
+	margin-top: 65px;
+}
+
+.gallery-faq-wrapper ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.gallery-faq-wrapper #accordion>li {
+	display: block;
+	list-style: none;
+}
+
+.gallery-faq-wrapper #accordion>li>span {
+	display: block;
+	margin-bottom: 23px;
+	padding: 6px 30px;
+	background: url(../images/Icon\ ionic-ios-arrow-back.png) no-repeat 95% center;
+	cursor: pointer;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 39px;
+	color: #FFFFFF;
+	background-color: #151515;
+}
+
+.gallery-faq-wrapper #accordion>li>div {
+	list-style: none;
+	padding: 0px;
+	display: none;
+	overflow: auto;
+	margin-bottom: 30px;
+	padding-left: 40px;
+	padding-right: 30px;
+}
+
+.gallery-faq-wrapper #accordion li>span.active {
+	background: url(../images/Icon\ ionic-back.png) no-repeat 95% center;
+	background-color: #151515;
+}
+
+.gallery-faq-wrapper #accordion>li>div  ul{
+	display:table;
+	width:100%;
+}
+.gallery-faq-wrapper #accordion>li>div  ul li{
+	width:33.333%;
+	float:left;
+}
+.gallery-faq-wrapper #accordion>li>div  ul li a {
+	font-size: 18px;
+	color: #2F2F2F;
+	line-height: 40px;
+}
+
+
+.meet-dr-image {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	overflow: hidden;
+	float: left;
+	margin-right: 50px;
+	margin-bottom: 30px;
+}
+
+.meet-dr-wrapper h6 {
+	color: #808080;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 32px;
+	text-transform: uppercase;
+	position: relative;
+	width: fit-content;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.meet-dr-wrapper h6:before {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 2px;
+	background-color: #151515;
+	bottom: 0px;
+	left: 0px;
+}
+
+.meet-dr-wrapper h6:hover::before {
+	width: 100%;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.meet-dr-wrapper h6:hover {
+	color: #151515;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.meet-image {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.meet-text h6 {
+	color: #808080;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 32px;
+	text-transform: uppercase;
+	margin-bottom: 18px;
+	position: relative;
+	width: fit-content;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.meet-each {
+	margin-bottom: 55px;
+}
+
+.meet-dr-wrapper {
+	padding-top: 70px;
+}
+
+.meet-doctor-wrapper {
+	padding-top: 110px;
+}
+
+.meet-dr-post-area {
+	padding-bottom: 50px;
+}
+
+.meet-doctor-area {
+	padding-bottom: 50px;
+}
+
+.gallery-procedure-wrapper {
+	padding-top: 53px;
+}
+
+.blog-each-image {
+	margin-bottom: 15px;
+	min-height: 178px;
+	background-color: #C3C3C3;
+}
+
+.gallery-procedure-wrapper .row {
+	margin-right: -40px;
+	margin-left: -40px;
+}
+
+.gallery-procedure-wrapper .row .col-lg-4 {
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+.meet-text h6:before {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 2px;
+	background-color: #151515;
+	bottom: 0px;
+	left: 0px;
+}
+
+.meet-text h6:hover::before {
+	width: 100%;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.meet-text h6:hover {
+	color: #151515;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+/* %%%%%%%%%%%%%%%%% contact %%%%%%%%%%%%% */
+.contact-area {
+	padding-top: 220px;
+}
+
+.contact-right {
+	padding: 50px 38px 10px 38px;
+	background-color: #F2F2F2;
+	margin-bottom: 10px;
+}
+
+.contact-each {
+	padding-bottom: 20px;
+}
+
+.contact-each h5 {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 32px;
+	color: #151515;
+	text-transform: uppercase;
+	margin-bottom: 4px;
+}
+
+.contact-each p {
+	line-height: 22px;
+}
+
+.contact-each p a {
+	font-size: 18px;
+	line-height: 22px;
+	color: #151515;
+}
+
+.contact-each p a:hover {
+	color: #808080;
+}
+
+.blog-each a {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 32px;
+	color: #808080;
+	text-transform: uppercase;
+	padding-bottom: 7px;
+	position: relative;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.blog-each {
+	margin-bottom: 70px;
+}
+
+.blog-each a:before {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 2px;
+	background-color: #151515;
+	bottom: 0px;
+	left: 0px;
+}
+
+.blog-each a:hover::before {
+	width: 100%;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.blog-each a:hover {
+	color: #151515;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%% Procedure overview %%%%%%%%%%%% */
+.procedure-overview-area {
+	padding-top: 132px;
+}
+
+.pr-over-area {
+	background: #F2F2F2;
+	position: relative;
+	margin-top: 50px;
+}
+
+.pr-over-image-area {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	max-width: 42%;
+	border-right: 20px solid #fff;
+}
+
+.pr-over-text {
+	padding: 55px 0px;
+}
+
+.procedure-pr-over-text {
+	padding: 95px 0px;
+}
+
+.procedure-pr-over-text h2 {
+	margin-bottom: 34px;
+}
+
+.pr-over-text ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.pr-over-text ul li {
+	margin-bottom: 22px;
+}
+
+.pr-over-text ul li a {
+	font-weight: 500;
+	font-size: 35px;
+	line-height: 47px;
+	letter-spacing: 1px;
+	color: #808080;
+	text-transform: uppercase;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	position: relative;
+	padding-bottom: 7px;
+}
+
+.pr-over-text ul li a:before {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 3px;
+	background-color: #151515;
+	bottom: 0px;
+	left: 0px;
+}
+
+.pr-over-text ul li a:hover::before {
+	width: 100%;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.gallery-post-slider {
+	position: relative;
+}
+
+.g-post-each {
+	background: #F2F2F2;
+	position: relative;
+	margin-top: 40px;
+	min-height: 278px;
+}
+
+.gallery-post-button {
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	z-index: 11;
+}
+
+.gallery-post-slider {
+	margin-bottom: 50px;
+	margin-top: 85px;
+}
+
+.gallery-post-area {
+	padding-bottom: 100px;
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%% procedure %%%%%%%%%%%%%%% */
+.procedure-area {
+	padding-top: 124px;
+	padding-bottom: 100px;
+}
+
+.procedure-about {
+	background-color: #F2F2F2;
+}
+
+.procedure-about-text {
+	padding: 100px 0px;
+}
+
+.procedure-pr-over-image-area {
+	max-width: 46%;
+	background-color: #C3C3C3;
+}
+
+.procedure-pr-over-area {
+	margin-top: 65px;
+	margin-bottom: 75px;
+}
+
+.say-area {
+	padding-top: 135px;
+	padding-bottom: 100px;
+	background-color: #F2F2F2;
+	position: relative;
+	margin-top: 70px;
+	margin-bottom: 86px;
+	overflow-x: hidden;
+}
+
+.say-slider-wrapper {
+	position: relative;
+}
+
+.say-slider-wrapper h2 {
+	margin-bottom: 35px;
+}
+
+.say-slider-wrapper a.common-button {
+	position: relative;
+	z-index: 2;
+}
+
+.procedure-say-button {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	z-index: 11;
+}
+
+.say-slider-wrapper .swiper-button-prev:after,
+.swiper-container-rtl .swiper-button-next:after {
+	display: none;
+}
+
+.say-slider-wrapper .swiper-button-next:after,
+.swiper-container-rtl .swiper-button-prev:after {
+	display: none;
+}
+
+.procedure-say-button .swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+	left: -22px;
+	right: auto;
+}
+
+.procedure-say-button .swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+	right: -23px;
+	left: auto;
+}
+
+.say-slider {
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+.say-slider-wrapper:after {
+	width: 380px;
+	height: 380px;
+	background: url(../images/Path\ 35.png) no-repeat center center /cover;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	content: '';
+	z-index: 1;
+}
+
+.procedure-contact-image {
+	max-width: 699px;
+	width: 50%;
+}
+
+.procedure-contact-image img {
+	width: 100%;
+}
+
+.procedure-about-text h2 {
+	color: #151515;
+}
+
+.procedure-about-text p {
+	color: #151515;
+}
+
+.procedure-about-text a.common-button {
+	color: #FFFFFF;
+	border: 1px solid #151515;
+	background-color: #151515;
+}
+
+.procedure-about-text a.common-button:hover {
+	background-color: #fff;
+	color: #151515;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.procedure-faq {
+	margin-top: 130px;
+}
+
+.procedure-faq h2 {
+	margin-bottom: 15px;
+}
+
+.procedure-faq #accordion>li>span {
+	background: url(../images/expand_arrow.png) no-repeat 96% #F2F2F2;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 32px;
+	color: #151515;
+	letter-spacing: 0.5px;
+	padding: 9px 30px;
+}
+
+.procedure-faq #accordion li>span.active {
+	background: url(../images/collapse-arrow.png) no-repeat 96% #F2F2F2;
+	border-bottom: 2px solid #151515;
+}
+
+.gallery-post-button .swiper-button-next:after,
+.swiper-container-rtl .swiper-button-prev:after {
+	display: none;
+}
+
+.gallery-post-button .swiper-button-prev:after,
+.swiper-container-rtl .swiper-button-next:after {
+	display: none;
+}
+
+.gallery-post-button .swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+	width: 200px;
+	justify-content: flex-start;
+}
+
+.gallery-post-button .swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+	width: 200px;
+	justify-content: flex-end;
+}
+
+.gallery-post-button .swiper-button-next span {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 32px;
+	color: #808080;
+	text-transform: uppercase;
+	margin-right: 10px;
+}
+
+.gallery-post-button .swiper-button-prev span {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 32px;
+	color: #808080;
+	text-transform: uppercase;
+	margin-left: 10px;
+}
+
+.procedure-area .inner-head {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.procedure-about-text h2 {
+	margin-bottom: 20px;
+}
+
+
+.pegination-area .pagination {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.gallery-procedure-area {
+	padding-bottom: 80px;
+}
