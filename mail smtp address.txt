@@ -1,0 +1,6 @@
+SMTP Server : smtp-relay.brevo.com
+Port : 587
+Login : sandipan@dgtalists.com
+Password : wcGCLzNWQEY6JjyS
+
+
