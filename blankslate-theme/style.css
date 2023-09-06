@@ -1,0 +1,69 @@
+/*
+Theme Name: BlankSlate
+Theme URI: https://github.com/tidythemes/blankslate
+Author: TidyThemes
+Author URI: https://github.com/tidythemes
+Description: Donations: https://calmestghost.com/donate. BlankSlate is the definitive WordPress boilerplate starter theme. We've carefully constructed the most clean and minimalist theme possible for designers and developers to use as a base to build websites for clients or to build completely custom themes from scratch. Clean, simple, unstyled, semi-minified, unformatted, and valid code, SEO-friendly, jQuery-enabled, no programmer comments, standardized and as white label as possible, and most importantly, the CSS is reset for cross-browser-compatability and no intrusive visual CSS styles have been added whatsoever. A perfect skeleton theme. For support and suggestions, go to: https://github.com/tidythemes/blankslate/issues. Thank you.
+Tags: accessibility-ready, one-column, two-columns, custom-menu, featured-images, microformats, sticky-post, threaded-comments, translation-ready
+Version: 2023
+Requires at least: 5.2
+Tested up to: 6.1
+Requires PHP: 7.0
+License: GNU General Public License v3 or Later
+License URI: https://www.gnu.org/licenses/gpl.html
+Text Domain: blankslate
+
+BlankSlate WordPress Theme © 2011-2023 TidyThemes
+BlankSlate is distributed under the terms of the GNU GPL
+*/
+
+/* =============== inner-bnner breadcrumb ===================== */
+
+.inner-bnner {
+    padding: 200px 0 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.inner-bnner::before {
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.breadcrumb-title h1 {
+    font-size: 45px;
+    margin-bottom: 25px;
+    line-height: 1;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+.breadcrumb-item a {
+    color: #fff;
+    font-size: 20px;
+}
+.breadcrumb-item.active {
+    color: #ff9c46;
+    font-size: 20px;
+}
+.breadcrumb-wrap{
+    display: flex;
+    justify-content: center;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 10px;
+    color: #ddd;
+    content: "|";
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
