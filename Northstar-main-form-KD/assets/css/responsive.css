@@ -1,0 +1,239 @@
+
+  @media only screen and (max-width: 991.98px) {
+  }  
+  @media only screen and (max-width: 575.98px) {
+      body {font-size: 0.8125rem;}
+      
+  }
+/* ======================
+        resposive
+======================= */
+@media only screen and (min-width: 1200px){
+.container {
+    max-width: 1230px;
+}
+}
+@media only screen and (max-width: 2500px) and (min-width:1914px){
+ 
+}
+}
+@media only screen and (max-width: 1357px) and (min-width:1203px){
+ 
+}
+@media only screen and (max-width: 1450px) and (min-width:1025px){
+  
+}
+@media only screen and (max-width: 1199px) and (min-width:1025px){
+
+.multisteps-form__progress ul li button{
+   font-size: 16px;
+}
+.multisteps-form__progress ul li button{
+   flex-direction: column;
+   align-items: center;
+}
+.multisteps-form__progress ul li button:before{
+	margin-right: 0;
+}
+.multisteps-form__progress ul li button i {
+    margin-left: 0;
+}
+  
+}
+
+@media only screen and (max-width: 1024px){
+.multisteps-form__progress ul li button{
+   flex-direction: column;
+   align-items: center;
+}
+.multisteps-form__progress ul li button:before{
+	margin-right: 0;
+}
+.multisteps-form__progress ul li button i {
+    margin-left: 0;
+}
+.mlstp_btn {
+    padding-left: 20px;
+}
+}
+@media only screen and (max-width: 991.98px){
+.northstar_form_wrapper{
+	padding: 40px;
+}
+ .northstar_upgrade_account {
+    flex-direction: column;
+}
+.northstar_form_title h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.multisteps-form__progress ul li button{
+   font-size: 16px;
+}
+.applicate_title {
+    padding-top: 40px;
+}
+.applicate_title h2 {
+    font-size: 30px;
+}
+.applicate_title p {
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 0 0px;
+}
+
+.focused .form-label {
+  -webkit-transform: translateY(-130%);
+          transform: translateY(-130%);
+  font-size:.80em;
+  background: #fef3f1;
+  padding: 0 5px;
+}
+.mlstp_btn {
+    padding-top: 70px;
+}
+.instl_ck {
+    padding: 55px 10px 0;
+}
+.mobile-footer_outter {
+    display: block;
+}
+}
+
+@media only screen and (max-width: 1102px) and (min-width: 992px){
+}
+
+@media only screen and (max-width: 980px) and (min-width: 768px){
+.instl_ck {
+    padding: 55px 10px 0;
+}
+.northstar_form_wrapper{
+	padding: 40px;
+}
+  .northstar_upgrade_account {
+    flex-direction: column;
+}
+.northstar_form_title h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.multisteps-form__progress ul li button{
+   font-size: 16px;
+}
+.applicate_title {
+    padding-top: 40px;
+}
+.applicate_title h2 {
+    font-size: 30px;
+}
+.applicate_title p {
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 0 0px;
+}
+
+.focused .form-label {
+  -webkit-transform: translateY(-130%);
+          transform: translateY(-130%);
+  font-size:.80em;
+  background: #fef3f1;
+  padding: 0 5px;
+}
+.mlstp_btn {
+    padding-top: 70px;
+}
+}
+@media only screen and (max-width: 767px){
+  .navbar_menu_wrapper {
+    flex-direction: column;
+    padding-bottom: 7px;
+}
+.northstar_form_title h3 {
+    font-size: 24px;
+    text-align: center;
+}
+.northstar_form_progessbar .form_progess {
+    min-width: 262px;
+}
+.multisteps-form {
+    padding: 20px 0;
+}
+.multisteps-form__progress ul {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.multisteps-form__progress ul li {
+    padding: 0 10px;
+}
+.multisteps-form__progress ul li button {
+    font-size: 13px;
+}
+.multisteps-form__progress ul li button:before {
+    margin-right: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+.applicate_title h2 {
+    font-size: 24px;
+}
+.applicate_title p {
+    font-size: 12px;
+    margin-top: 11px;
+    padding: 0 0px;
+}
+.northstar_form_wrapper {
+    padding: 26px;
+}
+.pad_none{
+	/*padding:0;*/
+}
+.form-label {
+	font-size: 13px;
+}
+.mlstp_btn {
+    padding-top: 11px;
+    padding-left: 0;
+}
+.mlstp_btn .btn {
+    height: 49px;
+    width: 120px;
+    font-size: 14px;
+    line-height: 36px;
+}
+.multi_img{
+	opacity: 0;
+    display: none;
+}
+label{
+	font-size: 14px;
+}
+.ck_bord {
+    flex-direction: column;
+    text-align: center;
+}
+.multisteps_btn {
+    flex-direction: column;
+    text-align: center;
+}
+.inner_wrap label .prtion_box h6 {
+    font-size: 14px;
+}
+.instl_ck {
+    padding: 0 0 0;
+}
+.protection_sec{
+    margin-bottom: 20px;
+    /* text-align: center;
+    flex-direction: column; */
+}
+.northstar_upgrade_account {
+    padding: 20px 0;
+}
+.applicate_title {
+    padding-top: 20px;
+}
+.form_select{
+  font-size: 14px;
+}
+}
